@@ -430,10 +430,10 @@ p {
 .card:hover {
     margin-top: 1em;
     margin-bottom: 2em;
-    transition: margin-top margin-bottom .5s;
-    -moz-transition: margin-top margin-bottom .5s; /* Firefox 4 */
-    -webkit-transition: margin .5s; /* Safari and Chrome */
-    -o-transition: margin .5s; /* Opera */
+    transition: margin-top 0.5s, margin-bottom 0.5s;
+    -moz-transition: margin-top 0.5s, margin-bottom 0.5s; /* Firefox 4 */
+    -webkit-transition: margin 0.5s, margin-bottom 0.5s; /* Safari and Chrome */
+    -o-transition: margin 0.5s, margin-bottom 0.5s; /* Opera */
   }
 
 
