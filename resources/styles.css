@@ -420,12 +420,22 @@ p {
     box-shadow:0 .5em 1em -.125em hsla(0,0%,4%,.1),0 0 0 1px hsla(0,0%,4%,.02);
     color:inherit;
     position:relative;
-    padding: 25px 20px;
-    margin-bottom: 2.5em;
     width:700px;
-    display: flex;
+    padding: 25px 20px;
+    margin: 1.5em 0;
+    display: inline-block;
     flex-direction: row;
 }
+
+.card:hover {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    transition: margin-top margin-bottom .5s;
+    -moz-transition: margin-top margin-bottom .5s; /* Firefox 4 */
+    -webkit-transition: margin .5s; /* Safari and Chrome */
+    -o-transition: margin .5s; /* Opera */
+  }
+
 
 .column {
     width:50%;
@@ -497,6 +507,13 @@ p {
     letter-spacing: -2.5px;
     padding: 28px 0px;
     margin: 32px 0px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 1;
 }
 
 .subtitle {
