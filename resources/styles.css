@@ -496,6 +496,10 @@ p {
     /* align-self:self-start; */
 }
 
+p {
+    text-align: left;
+}
+
 .spacer {
     height: 70px;
 }
@@ -520,7 +524,6 @@ p {
     color: var(--text-light);
     font-size: 24px;
     line-height: 1.4;
-    
 }
 
 .title {
