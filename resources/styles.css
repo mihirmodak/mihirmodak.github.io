@@ -511,8 +511,8 @@ p {
     letter-spacing: -2.5px;
     padding: 28px 0px;
     margin: 32px 0px;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    /* position: -webkit-sticky;  Safari */
+    /* position: sticky; */
     top: 0;
     background-color: #fff;
     backdrop-filter: blur(5px);
