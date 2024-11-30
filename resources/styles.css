@@ -111,10 +111,10 @@ a.button.round {
   font-family: inherit;
   font-size: unset;
   line-height: unset;
-  background-color: unset;
+  background-color: var(--card-background);
   cursor: pointer;
-  box-shadow: 0 0.5em 1em -0.125em hsla(0, 0%, 4%, 0.1),
-    0 0 0 1px hsla(0, 0%, 4%, 0.02);
+  box-shadow: 0 0.5em 1em -0.125em var(--card-shadow-color),
+    0 0 0 1px var(--card-shadow-color);
 }
 
 body {
@@ -187,7 +187,7 @@ p {
 .card {
     background-color: var(--card-background);
     border-radius: 0.75rem;
-    box-shadow: 0 0.5em 1em -0.125em var(--card-shadow-color),
+    box-shadow: 0 0.5em 1em -0.125em var(--card-shadow-color), 
       0 0 0 1px var(--card-border-color);
     color: inherit;
     position: relative;

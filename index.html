@@ -3,65 +3,102 @@
 <head>
     <!-- SEO Information -->
     <title>Mihir Modak</title>
-    <meta name="author" content = "Mihir Modak">
-    <meta name="description" content="Data Engineer, Computational Biology Student, AI Aficionado, Keeper of the One Ring, Burrito Enthusiast.">
+    <meta name="author" content="Mihir Modak">
+    <meta name="description"
+        content="Data Engineer, Computational Biology Student, AI Aficionado, Keeper of the One Ring, Burrito Enthusiast.">
     <meta name="keywords" content="Mihir, Modak, Mihir Modak, mmodak, mihir-modak, modakm">
 
+    <!-- Prefetch AWS S3 Bucket DNS -->
+    <link rel="dns-prefetch" href="https://mihirmodak.s3.us-east-1.amazonaws.com/" />
+
+    <!-- Preload images and logos -->
+    <!-- Page Favicon -->
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/logo.png" as="image" type="image/png"/>
+
+    <!-- Footer Home Button -->
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/home-lightmode.svg" as="image" type="image/svg+xml"/>
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/home-darkmode.svg" as="image" type="image/svg+xml"/>
+
+    <!-- Footer GitHub Button -->
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/github-mark-lightmode.svg" as="image" type="image/svg+xml"/>
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/github-mark-darkmode.svg" as="image" type="image/svg+xml"/>
+
+    <!-- Footer Linkedin Button -->
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/linkedin-lightmode.svg" as="image" type="image/svg+xml"/>
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/linkedin-darkmode.svg" as="image" type="image/svg+xml"/>
+
+    <!-- Footer Resume Button -->
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/resume-lightmode.svg" as="image" type="image/svg+xml"/>
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/resume-darkmode.svg" as="image" type="image/svg+xml"/>
+
+    <!-- Footer Email Button -->
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/email-lightmode.svg" as="image" type="image/svg+xml"/>
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/email-darkmode.svg" as="image" type="image/svg+xml"/>
+    
+    <!-- Project GIF Files -->
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/NotionRecipeBot.gif" as="image" type="image/gif"/>
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/HodgkinHuxley.gif" as="image" type="image/gif"/>
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/HodgkinHuxley.gif" as="image" type="image/gif"/>
+    <link rel="preload" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/HodgkinHuxley.gif" as="image" type="image/gif"/>
+
+
     <!-- Add Page Icons -->
-    <link rel="icon" type="image/x-icon" href="resources/logo.png">
-    <link rel="apple-touch-icon" href="resources/logo.png">
+    <link rel="icon" type="image/x-icon" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/logo.png">
+    <link rel="apple-touch-icon" href="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/logo.png">
 
     <!-- CSS -->
-    <link rel="preload" href="resources/styles.css" as="style">
     <link rel="stylesheet" href="resources/styles.css">
 
     <style data-href="https://fonts.googleapis.com/css2?family=Inter:wght@40;50;60;70;80;900&amp;display=swap">
-        
-        @font-face{
-            font-family:'Inter';
-            font-style:normal;
-            font-weight:400;
-            font-display:swap;
-            src:url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZs.woff) format('woff')
-        }
-        @font-face{
-            font-family:'Inter';
-            font-style:normal;
-            font-weight:500;
-            font-display:swap;
-            src:url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZs.woff) format('woff')
-        }
-        @font-face{
-            font-family:'Inter';
-            font-style:normal;
-            font-weight:600;
-            font-display:swap;
-            src:url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZs.woff) format('woff')
-        }
-        @font-face{
-            font-family:'Inter';
-            font-style:normal;
-            font-weight:700;
-            font-display:swap;
-            src:url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZs.woff) format('woff')
-        }
-        @font-face{
-            font-family:'Inter';
-            font-style:normal;
-            font-weight:800;
-            font-display:swap;
-            src:url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZs.woff) format('woff')
-        }
-        @font-face{
-            font-family:'Inter';
-            font-style:normal;
-            font-weight:900;
-            font-display:swap;
-            src:url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZs.woff) format('woff')
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZs.woff) format('woff')
         }
 
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZs.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZs.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZs.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZs.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZs.woff) format('woff')
+        }
     </style>
-        
+
 </head>
 
 <body>
@@ -84,7 +121,7 @@
         <div class="content main">
 
             <div class="subheading">
-                <p >My Projects</p>
+                <p>My Projects</p>
             </div>
 
             <!-- Notion Recipe Bot Card -->
@@ -93,13 +130,14 @@
                 <a href="https://the-notion-cookbook-bot.com" class="invisible">
 
                     <div class="column">
-                        <img src="resources/NotionRecipeBot.gif" class="cover">
+                        <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/NotionRecipeBot.gif" class="cover">
                     </div>
 
                     <div class="column" style="text-align: left">
                         <h2>The Notion Cookbook Bot: A Notion Integration for Recipe Management</h2>
                         <p class="article-title">
-                            An automated service that creates a Notion page for any recipe based on the contents of the webpage.
+                            An automated service that creates a Notion page for any recipe based on the contents of the
+                            webpage.
                         </p>
                     </div>
                 </a>
@@ -111,14 +149,14 @@
                 <a href="https://mihirmodak.github.io/hodgkin-huxley" class="invisible">
 
                     <div class="column">
-                        <img src="resources/HodgkinHuxley.gif" class="cover">
+                        <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/HodgkinHuxley.gif" class="cover">
                     </div>
 
                     <div class="column" style="text-align: left">
                         <h2>A Computational Model of a Human Neuron</h2>
                         <p class="article-title">
-                            A mathematical model implemented in MATLAB that can simulate the activity of a neuron, 
-                            such as excitation, inhibition, and action potentials. 
+                            A mathematical model implemented in MATLAB that can simulate the activity of a neuron,
+                            such as excitation, inhibition, and action potentials.
                         </p>
                     </div>
                 </a>
@@ -148,19 +186,19 @@
                 <a href="https://mihirmodak.github.io/MentalStressorTests/" class="invisible">
 
                     <div class="column">
-                        <img src="resources/MentalStressorGUI.gif" class="cover">
+                        <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/MentalStressorGUI.gif" class="cover">
                     </div>
 
                     <div class="column" style="text-align: left">
                         <h2>A Mental Stressor Test GUI for a Human Subject Study</h2>
                         <p class="article-title">
-                            A Graphical User Interface (GUI) that can administer 3 separate mental stressor tasks and 
-                            accept responses using speech recognition via the Google Speech API. 
+                            A Graphical User Interface (GUI) that can administer 3 separate mental stressor tasks and
+                            accept responses using speech recognition via the Google Speech API.
                         </p>
                     </div>
                 </a>
             </article>
-            
+
         </div>
 
     </div>
@@ -171,22 +209,38 @@
 
         <div class="footer links">
             <a href="https://mihirmodak.github.io" class="button round" target="_self">
-                <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/home.svg">
+                <picture>
+                    <source srcset="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/home-darkmode.svg" media="(prefers-color-scheme: dark)" class="logo">
+                    <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/home-lightmode.svg" class="logo">
+                </picture>
             </a>
+
             <a href="https://github.com/mihirmodak" class="button round" target="_blank">
-                <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/github-mark.svg" class="logo"/>
+                <picture>
+                    <source srcset="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/github-mark-darkmode.svg" media="(prefers-color-scheme: dark)" class="logo">
+                    <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/github-mark-lightmode.svg" class="logo" />
+                </picture>
             </a>
 
             <a href="https://www.linkedin.com/in/mihir-modak/" class="button round" target="_blank">
-                <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/linkedin.svg" class="logo">
+                <picture>
+                    <source srcset="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/linkedin-darkmode.svg" media="(prefers-color-scheme: dark)" class="logo">
+                    <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/linkedin-lightmode.svg" class="logo">
+                </picture>
             </a>
 
             <a href="https://mihirmodak.s3.us-east-1.amazonaws.com/Mihir+Modak+Resume.pdf" class="button round" target="_blank">
-                    <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/resume.svg  " class="logo">
+                <picture>
+                    <source srcset="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/resume-darkmode.svg" media="(prefers-color-scheme: dark)" class="logo">
+                    <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/resume-lightmode.svg" class="logo">
+                </picture>
             </a>
 
             <a href="mailto:mihir.modak@outlook.com" class="button round" target="_blank">
-                <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/email.svg" class="logo">
+                <picture>
+                    <source srcset="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/email-darkmode.svg" media="(prefers-color-scheme: dark)" class="logo">
+                    <img src="https://mihirmodak.s3.us-east-1.amazonaws.com/portfolio-images/email-lightmode.svg" class="logo">
+                </picture>
             </a>
         </div>
     </footer>
